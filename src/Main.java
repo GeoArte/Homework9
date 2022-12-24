@@ -53,7 +53,7 @@ public class Main
         {
             sum = sum + e;
         }
-        double s = (double)(sum) / 30;
+        double s = (double)(sum) / book.length;
         System.out.println("    Средняя сумма трат за месяц составила " + s + " рублей");
     }
 
